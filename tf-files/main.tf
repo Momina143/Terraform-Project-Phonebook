@@ -33,7 +33,7 @@ resource "aws_launch_template" "asg-lt" {
   tag_specifications {
     resource_type = "instance"
     tags = {
-      Name = "Web Server of Phonebook App"
+      Name = "Web Server of Phonebook Application"
     }
   }
 }
