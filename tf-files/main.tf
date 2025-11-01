@@ -75,7 +75,7 @@ resource "aws_db_instance" "db-server" {
   engine                      = "mysql"
   engine_version              = "8.0.37"
   username                    = "admin"
-  password                    = "Oliver_1"
+  password                    = "Momina_1"
   monitoring_interval         = 0
   multi_az                    = false
   port                        = 3306
